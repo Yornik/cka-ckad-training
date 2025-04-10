@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Kubernetes secrets
+secret.yaml
+*.secret.yaml
+*.sops.yaml
+secrets/
+**/secret.yaml
+**/secrets.yaml
+**/secret.sops.yaml
+
+# Flux and Kustomize build artifacts
+.kube/
+.kubeconfig
+*.lock
+flux-system/
+
+# Helm artifacts
+charts/*
+*.tgz
+*.chart.lock
+Chart.lock
+values.generated.yaml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python or scripting temp files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# System files
+*.swp
+*.bak
+*~
