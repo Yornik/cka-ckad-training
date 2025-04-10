@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-with-sidecar
+spec:
+  containers:
+    - name: main-app
+      image: nginx
+    - name: sidecar-logger
+      image: busybox
+      command: ['sh', '-c', 'tail -f /var/log/app.log']
