@@ -8,7 +8,7 @@ Each project includes:
 - 🛠️ Working solution YAMLs
 - 🧪 Real-world SRE-style scenarios
 
-> ⚠️ **Disclaimer:** All content in this repository was generated with the help of **ChatGPT**. While it is functional, it may contain inaccuracies or deviate from Kubernetes best practices. Always cross-reference with the [official documentation](https://kubernetes.io/docs/).
+> ⚠️ **Disclaimer:** All content in this repository was generated with the help of **ChatGPT**. While it should be functional, it may contain inaccuracies or deviate from Kubernetes best practices. Always cross-reference with the [official documentation](https://kubernetes.io/docs/).
 
 ---
 
@@ -30,23 +30,23 @@ ckad-cka-labs/
 |--------|--------|
 | `project1-wordpress-deployment` | Deployments, PVC, ConfigMaps, Probes |
 | `project2-sidecar-logger` | Multi-container Pods, shared volumes |
-| `project3-helm-packaging` *(TBD)* | Helm templating |
-| `project4-network-policy` *(TBD)* | Pod-to-pod traffic control |
+| `project3-helm-packaging` | Helm templating |
+| `project4-network-policy` | Pod-to-pod traffic control |
 
 ### CKA
 | Project | Topics |
 |--------|--------|
 | `project5-kubeadm-cluster` | Manual cluster bootstrap |
 | `project6-rbac-sa` | RBAC, RoleBindings, ServiceAccounts |
-| `project7-etcd-backup-restore` *(TBD)* | Disaster recovery |
-| `project8-security-context` *(TBD)* | PodSecurityContext, taints & tolerations |
+| `project7-etcd-backup-restore` | Disaster recovery |
+| `project8-security-context` | PodSecurityContext, taints & tolerations |
 
 ---
 
 ## 💻 Requirements
 
 - 🧠 Basic understanding of Kubernetes
-- 💻 1–3 VMs on your MacBook Pro (e.g. via Multipass or UTM)
+- 💻 1–3 VMs on your COmputer (e.g. via Multipass or UTM)
 - 🐧 Ubuntu 22.04 recommended
 - 🐳 Docker or containerd
 - ✅ K3s, Minikube, or kubeadm-based cluster
